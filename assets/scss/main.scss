@@ -7,15 +7,16 @@
 @use 'moduloBoton02';
 
 header{
-    background-image: url('../img/vistas/panaderia-pasteleria-aginaga-1500.avif');
+    background-image: url('../img/vistas/inicio/panaderia-pasteleria-aginaga-1500.avif');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     background-attachment: fixed;
     @media only screen and (min-width:c.$tablet){
-        background-image: url('../img/vistas/panaderia-pasteleria-aginaga-1800.avif');
+        background-image: url('../img/vistas/inicio/panaderia-pasteleria-aginaga-1800.avif');
     }
     @media only screen and (min-width:c.$desktop){
-        background-image: url('../img/vistas/panaderia-pasteleria-aginaga-2560.avif');
+        background-image: url('../img/vistas/inicio/panaderia-pasteleria-aginaga-2560.avif');
     }
 }
 

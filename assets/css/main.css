@@ -18,9 +18,11 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: clamp(2rem, 6vw, 15rem);
+  text-align: center;
   color: #d14d4d;
   letter-spacing: 10px;
+  width: 90%;
 }
 
 h2 {
@@ -511,18 +513,19 @@ footer ul {
 }
 
 header {
-  background-image: url("../img/vistas/panaderia-pasteleria-aginaga-1500.avif");
+  background-image: url("../img/vistas/inicio/panaderia-pasteleria-aginaga-1500.avif");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   background-attachment: fixed;
 }
 @media only screen and (min-width: 800px) {
   header {
-    background-image: url("../img/vistas/panaderia-pasteleria-aginaga-1800.avif");
+    background-image: url("../img/vistas/inicio/panaderia-pasteleria-aginaga-1800.avif");
   }
 }
 @media only screen and (min-width: 1200px) {
   header {
-    background-image: url("../img/vistas/panaderia-pasteleria-aginaga-2560.avif");
+    background-image: url("../img/vistas/inicio/panaderia-pasteleria-aginaga-2560.avif");
   }
 }/*# sourceMappingURL=main.css.map */
